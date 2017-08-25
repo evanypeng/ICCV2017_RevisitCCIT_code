@@ -31,8 +31,11 @@ This code and data is released under the Creative Commons Attribution-NonCommerc
 This work was supported by KAUST baseline funding, as well as a UBC 4YF Doctoral Fellowship. The authors thank Tao Yue, Qiang Fu, and Felix Heide for the help on synthetic results.
 
 If you find any bugs or have comments/questions, please contact 
+
 	Tiancheng Sun      [kevin.kingo0627@gmail.com]
+	
 	Yifan (Evan) Peng  [evanpeng@cs.ubc.ca]
+	
 	Wolfgang Heidrich  [wolfgang.heidrich@kaust.edu.sa]
 
 Aug.2017
