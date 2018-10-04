@@ -77,7 +77,9 @@ built_mmx   = false;
 
 arch        = computer('arch');
 
-for b = 1:3
+for b = 2:3   %1:3 
+% note that for the first case of using mmx_naive, MKL is needed which may sometimes become
+% a critical constraint, thus we would suggest to use 2/3 cases, which yield competitive results
    name = build_names{b};
    
    [link, define]  = deal({});
@@ -97,6 +99,7 @@ for b = 1:3
                   inc_dir  = [root '\extern\lib\win64\microsoft'];
                end
                link     = {'libmwblas','libmwlapack'};
+               link_dir  = [matlabroot '\extern\lib\win64\microsoft'];
                define   = {'WIN_SYSTEM','USE_BLAS'};
                
             case 'mmx_mkl_single'
